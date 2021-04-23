@@ -12,8 +12,8 @@ The aim of this application is to create a mobile application that can translate
 - **Flutter**
 
 ### How to run this app
-First install the **Flutter** SDK from the following website.
-https://flutter.dev/docs/get-started/install
+First install the **Flutter** SDK from the following website. /n
+https://flutter.dev/docs/get-started/install /n
 Choose your operating systems and follow the instruction thoroughly, **DO NOT FORGET TO UPDATE THE PATH TO THE FLUTTER SDK**
 
 - **flutter pub get**
