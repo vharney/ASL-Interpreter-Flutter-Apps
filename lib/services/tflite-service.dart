@@ -21,7 +21,7 @@ class TensorFlowService {
   Future<void> loadModel() async {
     try {
       await Tflite.loadModel(
-        model: "assets/model_hot_encode.tflite",
+        model: "assets/model_72.tflite",
         labels: "assets/labels.txt",
       );
       _modelLoaded = true;
