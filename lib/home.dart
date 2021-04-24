@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
           body: Column(
             children: [
-              SizedBox(height: 150),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.15),
               Align(
                 alignment: Alignment.topLeft,
                 child: Padding(
@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
-              SizedBox(height: 140),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.15),
               Padding(
                 padding: const EdgeInsets.only(left: 35.0),
                 child: Row(
@@ -97,7 +97,7 @@ class _HomeState extends State<Home> {
                       ),
                     ]),
               ),
-              SizedBox(height: 20),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               Padding(
                 padding: const EdgeInsets.only(left: 35.0),
                 child: Row(
@@ -122,7 +122,7 @@ class _HomeState extends State<Home> {
                       ),
                     ]),
               ),
-              SizedBox(height: 20),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               Padding(
                 padding: const EdgeInsets.only(left: 35.0),
                 child: Row(
@@ -147,7 +147,7 @@ class _HomeState extends State<Home> {
                       ),
                     ]),
               ),
-              SizedBox(height: 50),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.05),
               SlideButton(
                 height: 64,
                 backgroundChild: Center(
